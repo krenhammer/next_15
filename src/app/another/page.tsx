@@ -5,13 +5,13 @@ export default function Home() {
     return (
         <div className="grid h-screen place-items-center text-4xl">
             <div>
-                More
+                Another
 
             </div>
             <div>
                 <Link href="/">Home</Link>
                 <Link href="/stuff">Stuff</Link>
-                <Link href="/another">Another</Link>
+                <Link href="/more">More</Link>
             </div>
         </div>
     )
